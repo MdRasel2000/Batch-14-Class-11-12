@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    background: linear-gradient(to right bottom, rgb(0, 213, 255), rgb(13, 255, 0));
+
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+
+    font-family: serif;
+    line-height: 1.4;
+    display: flex;
+
+}
+
+
+.cointiner {
+    background-color: wheat;
+    width: 400px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px 30px 40px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+.form-title {
+
+    text-align: center;
+    font-weight: 600;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.reg-form {
+
+    display: grid;
+    row-gap: 10px;
+
+
+}
+
+
+label {
+
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input {
+
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid olivedrab;
+}
+
+
+input:focus {
+
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    ;
+
+}
+
+
+
+.btn {
+    background: linear-gradient(to right bottom, rgb(0, 255, 229), rgb(242, 255, 0));
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+
+}
+
+
+.login {
+
+
+    background: linear-gradient(to right bottom, rgb(0, 255, 229), rgb(242, 255, 0));
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+.reg {
+
+    background: linear-gradient(to right bottom, rgb(0, 255, 229), rgb(242, 255, 0));
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border: none;
+
+    border-radius: 5px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-decoration: none;
+}
+
+.forgot {
+
+    background: linear-gradient(to right bottom, rgb(0, 255, 229), rgb(242, 255, 0));
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+
+
+
+}
